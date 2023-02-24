@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://TRYC.gd" type="Script" id=1]
-
-[node name="TRYC" type="Node2D"]
-script = ExtResource( 1 )
