@@ -1,0 +1,57 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://DragableSprite/DragableSprite.tscn" type="PackedScene" id=1]
+[ext_resource path="res://image (1).png" type="Texture" id=2]
+[ext_resource path="res://DragableSprite/brain 1.png" type="Texture" id=4]
+
+[node name="DragableSprites" type="Node2D"]
+
+[node name="Image(1)" type="Sprite" parent="."]
+position = Vector2( 764, 426 )
+scale = Vector2( 2.70474, 2.45707 )
+texture = ExtResource( 2 )
+
+[node name="Stars" type="Node2D" parent="."]
+
+[node name="Star01" parent="Stars" instance=ExtResource( 1 )]
+position = Vector2( 251.335, 227.584 )
+group = "stars"
+
+[node name="Star02" parent="Stars" instance=ExtResource( 1 )]
+position = Vector2( 153.892, 337.041 )
+rotation = 0.261799
+group = "stars"
+
+[node name="Star03" parent="Stars" instance=ExtResource( 1 )]
+position = Vector2( 258.009, 418.466 )
+rotation = 0.523599
+group = "stars"
+
+[node name="Circles" type="Node2D" parent="."]
+
+[node name="Circle01" parent="Circles" instance=ExtResource( 1 )]
+position = Vector2( 473.665, 111.57 )
+rotation = 0.675442
+group = "circle"
+
+[node name="Circle02" parent="Circles" instance=ExtResource( 1 )]
+position = Vector2( 628.507, 195.665 )
+rotation = 0.675442
+group = "circle"
+
+[node name="Circle03" parent="Circles" instance=ExtResource( 1 )]
+position = Vector2( 504.367, 293.108 )
+rotation = 0.675442
+group = "circle"
+
+[node name="Squares" type="Node2D" parent="."]
+
+[node name="Square01" parent="Squares" instance=ExtResource( 1 )]
+position = Vector2( 812.375, 448.706 )
+rotation = 0.270526
+
+[node name="Sprite" type="Sprite" parent="Squares/Square01"]
+texture = ExtResource( 4 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Squares/Square01"]
+polygon = PoolVector2Array( 100, 100, -100, 100, -100, -100, 100, -100 )

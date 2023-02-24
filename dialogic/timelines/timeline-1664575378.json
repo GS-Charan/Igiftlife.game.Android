@@ -1,0 +1,96 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/onlymp3.to - Heart Beat [SOUND EFFECT]-TgZjYIPPe50-192k-1659316103809.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/AdobeStock_306576515-2048x1152.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the heart starts beating again"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you were succesful in reviving him!!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Keep him in ICU for a while for observation, and then we will see."
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "also inform his relative soon"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897250.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay"
+		},
+		{
+			"change_scene": "res://R&D4.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1664575378.json",
+		"name": "SHBD"
+	}
+}

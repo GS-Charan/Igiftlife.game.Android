@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/igiftlife title screen bg music.mp3-35f8e37a222810c19c53a917bf7fd72c.mp3str"
+
+[deps]
+
+source_file="res://assets/igiftlife title screen bg music.mp3"
+dest_files=[ "res://.import/igiftlife title screen bg music.mp3-35f8e37a222810c19c53a917bf7fd72c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

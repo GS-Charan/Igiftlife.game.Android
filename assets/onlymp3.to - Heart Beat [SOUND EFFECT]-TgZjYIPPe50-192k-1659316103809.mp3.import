@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - Heart Beat [SOUND EFFECT]-TgZjYIPPe50-192k-1659316103809.mp3-38c689c6a793fb242adc3cab6a5a15fd.mp3str"
+
+[deps]
+
+source_file="res://assets/onlymp3.to - Heart Beat [SOUND EFFECT]-TgZjYIPPe50-192k-1659316103809.mp3"
+dest_files=[ "res://.import/onlymp3.to - Heart Beat [SOUND EFFECT]-TgZjYIPPe50-192k-1659316103809.mp3-38c689c6a793fb242adc3cab6a5a15fd.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

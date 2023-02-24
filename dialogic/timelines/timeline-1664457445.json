@@ -1,0 +1,113 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/igiftlife hospital bg music.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/AbulanceHITNistock_1.jpg",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The ambulance arrives at the hospital."
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The nurse rushes out of the ambulance and pulls down the stretcher \n"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "they rush him inside the hospital, where they talk to the doctor"
+		},
+		{
+			"background": "res://assets/Emergency-Medicine.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What happened?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897250.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s a major accident. He was overspeeding on the road, and he crashed into the roadblock with all his speed. Please start his treatment immediately. Doctor, Please inform his family members immediately.\t"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They rush to the ER"
+		},
+		{
+			"character": "character-1662897250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Doctor quick, he is going into cardiac arrest."
+		},
+		{
+			"change_scene": "res://defeb4.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1664457445.json",
+		"name": "D&N4"
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"events": [
+		{
+			"background": "res://assets/14szEnf.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the heart fails!!!!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you were failed in reviving him!!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Despite our best efforts we could not save him....."
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "contact his relative right now"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897250.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897250.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay"
+		},
+		{
+			"change_scene": "res://R&D3.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1664568153.json",
+		"name": "heartdeath"
+	}
+}

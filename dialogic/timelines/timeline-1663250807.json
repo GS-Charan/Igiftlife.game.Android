@@ -1,0 +1,80 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/igiftlife introduction bg music.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/biker-tips-768x499.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*Sanjeev is an excellent motorcycle rider. He has a lot of motorcycle riding experience on different bikes.*"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*Today is a special day for Sanjeev. It’s his wedding anniversary.*"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*He married Rekha his beloved wife exactly one year ago.*"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*Sanjeev has booked a candlelight dinner in cities best hotel. He is on his way to pick up Rekha from his workplace.*"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "do you want to wear helmet"
+		},
+		{
+			"choice": "no",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://bike.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://bike.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1663250807.json",
+		"name": "introduction"
+	}
+}

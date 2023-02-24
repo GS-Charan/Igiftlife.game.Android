@@ -1,0 +1,29 @@
+{
+	"events": [
+		{
+			"background": "res://assets/istockphoto-1069606048-612x612.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You got every organ correct!!!"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sanjeev recovers after a successful Transplant after getting a cadaver doner after 1.5 years on waiting list , and they live happily ever after"
+		},
+		{
+			"change_scene": "res://end.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1664551026.json",
+		"name": "CE"
+	}
+}

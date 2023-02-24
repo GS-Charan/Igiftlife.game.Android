@@ -1,0 +1,299 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "HBoxContainer",
+"class": "ContributorClass",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/ContributorClass.gd"
+}, {
+"base": "Reference",
+"class": "DTS",
+"language": "GDScript",
+"path": "res://addons/dialogic/Localization/translation_service.gd"
+}, {
+"base": "Node",
+"class": "Dialogic",
+"language": "GDScript",
+"path": "res://addons/dialogic/Other/DialogicClass.gd"
+}, {
+"base": "Reference",
+"class": "DialogicAnimaPropertiesHelper",
+"language": "GDScript",
+"path": "res://addons/dialogic/Nodes/Anima/DialogicAnimaPropertiesHelper.gd"
+}, {
+"base": "Node",
+"class": "DialogicAnimaResources",
+"language": "GDScript",
+"path": "res://addons/dialogic/Nodes/Anima/DialogicAnimaResources.gd"
+}, {
+"base": "Control",
+"class": "DialogicBackgroundMusic",
+"language": "GDScript",
+"path": "res://addons/dialogic/Nodes/BackgroundMusic.gd"
+}, {
+"base": "Node",
+"class": "DialogicCustomEvents",
+"language": "GDScript",
+"path": "res://addons/dialogic/Nodes/DialogicCustomEvents.gd"
+}, {
+"base": "Node",
+"class": "DialogicDefinitionsUtil",
+"language": "GDScript",
+"path": "res://addons/dialogic/Other/DialogicDefinitionsUtil.gd"
+}, {
+"base": "Node",
+"class": "DialogicParser",
+"language": "GDScript",
+"path": "res://addons/dialogic/Parser/DialogicParser.gd"
+}, {
+"base": "Reference",
+"class": "DialogicResources",
+"language": "GDScript",
+"path": "res://addons/dialogic/Other/DialogicResources.gd"
+}, {
+"base": "Reference",
+"class": "DialogicUtil",
+"language": "GDScript",
+"path": "res://addons/dialogic/Other/DialogicUtil.gd"
+}, {
+"base": "Resource",
+"class": "DialogueResource",
+"language": "GDScript",
+"path": "res://addons/dialogue_manager/dialogue_resource.gd"
+}, {
+"base": "Node",
+"class": "DragController",
+"language": "GDScript",
+"path": "res://addons/frontrider.drag_control/DragController.gd"
+}, {
+"base": "Resource",
+"class": "Event",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/resources/event_class/event_class.gd"
+}, {
+"base": "Event",
+"class": "EventCall",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/call_from.gd"
+}, {
+"base": "Event",
+"class": "EventComment",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/comment.gd"
+}, {
+"base": "Event",
+"class": "EventCondition",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/new_condition.gd"
+}, {
+"base": "Event",
+"class": "EventEmitSignal",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/emit_signal.gd"
+}, {
+"base": "Event",
+"class": "EventGoTo",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/goto.gd"
+}, {
+"base": "Event",
+"class": "EventHide",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/hide.gd"
+}, {
+"base": "Node",
+"class": "EventManager",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/nodes/event_manager/event_manager.gd"
+}, {
+"base": "Event",
+"class": "EventSet",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/set.gd"
+}, {
+"base": "Event",
+"class": "EventShow",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/show.gd"
+}, {
+"base": "Event",
+"class": "EventWait",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/wait.gd"
+}, {
+"base": "PanelContainer",
+"class": "GistItem",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/GistItem.gd"
+}, {
+"base": "PanelContainer",
+"class": "HistoryRow",
+"language": "GDScript",
+"path": "res://addons/dialogic/Example Assets/History/HistoryRow.gd"
+}, {
+"base": "HBoxContainer",
+"class": "InvitationItem",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/InvitationItem.gd"
+}, {
+"base": "PanelContainer",
+"class": "RepositoryItem",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/RepositoryItem.gd"
+}, {
+"base": "Object",
+"class": "SceneManagerConstants",
+"language": "GDScript",
+"path": "res://addons/scene_manager/SceneManagerConstants.gd"
+}, {
+"base": "Resource",
+"class": "Timeline",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/resources/timeline_class/timeline_class.gd"
+}, {
+"base": "Control",
+"class": "VirtualJoystick",
+"language": "GDScript",
+"path": "res://joystick/virtual_joystick.gd"
+} ]
+_global_script_class_icons={
+"ContributorClass": "",
+"DTS": "",
+"Dialogic": "",
+"DialogicAnimaPropertiesHelper": "",
+"DialogicAnimaResources": "",
+"DialogicBackgroundMusic": "",
+"DialogicCustomEvents": "",
+"DialogicDefinitionsUtil": "",
+"DialogicParser": "",
+"DialogicResources": "",
+"DialogicUtil": "",
+"DialogueResource": "",
+"DragController": "",
+"Event": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
+"EventCall": "",
+"EventComment": "",
+"EventCondition": "",
+"EventEmitSignal": "",
+"EventGoTo": "",
+"EventHide": "",
+"EventManager": "",
+"EventSet": "",
+"EventShow": "",
+"EventWait": "",
+"GistItem": "",
+"HistoryRow": "",
+"InvitationItem": "",
+"RepositoryItem": "",
+"SceneManagerConstants": "",
+"Timeline": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
+"VirtualJoystick": ""
+}
+
+[application]
+
+config/name="StaySafe"
+run/main_scene="res://Menu.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+SceneManager="*res://addons/scene_manager/SceneManager.tscn"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/fullscreen=true
+window/stretch/mode="2d"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg", "res://addons/scene_manager/plugin.cfg" )
+
+[global]
+
+stretch=false
+streach=false
+
+[input]
+
+steer_left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777231,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+steer_right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777233,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+accelerate={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+brake={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+dialogic_default_action={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777221,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":true,"doubleclick":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":88,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
+ ]
+}
+right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777233,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777231,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+select={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+ui_touch={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

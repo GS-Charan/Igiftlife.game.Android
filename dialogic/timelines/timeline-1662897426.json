@@ -1,0 +1,172 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/igiftlife hospital bg music.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/long-hospital-corridor-with-empty-seats_117023-1679.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "start"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excuse me doctor"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Please come inside. May I know who you are?"
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Doctor, I’m Rekha. Sanjeev’s wife. He was admitted today evening here in the emergency department. I wanted to discuss his present medical situation."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "should you wear helmet"
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sanjeev’s situation is much better now. He got lucky, and he is out of danger now"
+		},
+		{
+			"choice": "yes ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "when can we discharge him?"
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In few days"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*They celebrate their anniversary in the hospital ward*"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "no",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Most brain stem death occurs in youngsters because of riding without a helmet"
+		},
+		{
+			"character": "character-1662898294.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you should always wear helmet"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "try again"
+		},
+		{
+			"change_scene": "res://hospital1R&D.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "1"
+		},
+		{
+			"change_scene": "res://end.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1662897426.json",
+		"name": "conversationR&D"
+	}
+}

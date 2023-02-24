@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "  ",
+	"display_name_bool": true,
+	"id": "character-1662897241.json",
+	"mirror_portraits": false,
+	"name": "wife rekha",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/Picsart_22-09-29_19-31-12-509.png"
+		}
+	],
+	"scale": 150,
+	"theme": ""
+}

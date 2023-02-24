@@ -1,0 +1,256 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/igiftlife hospital bg music.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/long-hospital-corridor-with-empty-seats_117023-1679.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "start"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excuse me doctor"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Please come inside. May I know who you are?"
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Doctor, I’m Rekha. Sanjeev’s wife. He was admitted today evening here in the emergency department. I wanted to discuss his present medical situation."
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sanjeev’s situation is serious and unstable at the time. A pole hit his abdominal area and cut his body badly. Sanjeev’s kidney function is completely lost. "
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now it’s controlled by the dialysis machine. I’d suggest we find a suitable kidney for Sanjeev’s body so that we can move forward with the transplant."
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " How do we go about doing this? From where can we get an organ"
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You can put his name on the waiting list, or if someone from the family is willing to donate, this is the quickest way for a transplant."
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh ok, I can give one of my kidneys, doctor."
+		},
+		{
+			"character": "character-1662897213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Great, it will be good if a few more close relatives’ tests are also done. Finding a match is not that easy."
+		},
+		{
+			"character": "character-1662897241.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Start with my test, his brother is on the way, and I am sure he will also agree to get the test done."
+		},
+		{
+			"background": "res://assets/960x0.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Do you want to go for Live or Cadaver donation?"
+		},
+		{
+			"choice": "Cadaver donation",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "okay lets put you on waiting list"
+		},
+		{
+			"anchor_id": "anchor-1664551607",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Live donation",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1664463856",
+			"index": 0,
+			"name": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Can a person survive with one kidney?"
+		},
+		{
+			"choice": "NO",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Incorrect"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "try again"
+		},
+		{
+			"anchor_id": "anchor-1664463856",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "YES",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Correct"
+		},
+		{
+			"anchor_id": "anchor-1664464038",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1664464038",
+			"index": 0,
+			"name": "3"
+		},
+		{
+			"change_scene": "res://live 1.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "1"
+		},
+		{
+			"change_scene": "res://end.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1664551607",
+			"index": 0,
+			"name": "4"
+		},
+		{
+			"change_scene": "res://cad1.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1664462602.json",
+		"name": "R&D2"
+	}
+}

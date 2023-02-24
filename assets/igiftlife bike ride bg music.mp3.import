@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/igiftlife bike ride bg music.mp3-05f23fde1d9c5929b4c73c43ff4fe39f.mp3str"
+
+[deps]
+
+source_file="res://assets/igiftlife bike ride bg music.mp3"
+dest_files=[ "res://.import/igiftlife bike ride bg music.mp3-05f23fde1d9c5929b4c73c43ff4fe39f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

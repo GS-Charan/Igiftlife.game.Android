@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"background": "res://assets/960x0.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/Sound Effect- Crash.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "silence fills the air"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "people who witness the crash immediatly call the ambulance"
+		},
+		{
+			"change_scene": "res://Node2D.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1663417388.json",
+		"name": "crash"
+	}
+}

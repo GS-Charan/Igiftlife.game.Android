@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://addons/heart123.gd" type="Script" id=1]
+[ext_resource path="res://assets/Heart2 1.png" type="Texture" id=2]
+[ext_resource path="res://assets/EYE 1.png" type="Texture" id=3]
+[ext_resource path="res://addons/eye123.gd" type="Script" id=4]
+[ext_resource path="res://addons/selection.tscn" type="PackedScene" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 46.625, 69.3125 )
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 57.0351
+
+[node name="organs_obj" type="Node2D"]
+
+[node name="heart123" type="KinematicBody2D" parent="."]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="heart123"]
+position = Vector2( 226.5, 202.184 )
+scale = Vector2( 0.308673, 0.308673 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="heart123"]
+position = Vector2( 227, 203.688 )
+shape = SubResource( 1 )
+
+[node name="eye123" type="KinematicBody2D" parent="."]
+script = ExtResource( 4 )
+
+[node name="Sprite2" type="Sprite" parent="eye123"]
+position = Vector2( 437, 187 )
+scale = Vector2( 0.308673, 0.308673 )
+texture = ExtResource( 3 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="eye123"]
+position = Vector2( 435, 186 )
+shape = SubResource( 2 )
+
+[node name="selection" parent="eye123" instance=ExtResource( 5 )]
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="eye123/selection"]
+position = Vector2( 435, 186 )
+shape = SubResource( 2 )
+
+[connection signal="selection_toggled" from="eye123/selection" to="eye123" method="_on_selection_selection_toggled"]

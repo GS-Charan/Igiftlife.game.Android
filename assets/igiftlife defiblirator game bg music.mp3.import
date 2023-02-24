@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/igiftlife defiblirator game bg music.mp3-029c9e963ced7369c2b6c3df57406c54.mp3str"
+
+[deps]
+
+source_file="res://assets/igiftlife defiblirator game bg music.mp3"
+dest_files=[ "res://.import/igiftlife defiblirator game bg music.mp3-029c9e963ced7369c2b6c3df57406c54.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

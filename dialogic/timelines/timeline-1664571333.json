@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"background": "res://assets/960x0.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wrong answer try again"
+		},
+		{
+			"change_scene": "res://HF1.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1664571333.json",
+		"name": "tryhf"
+	}
+}
