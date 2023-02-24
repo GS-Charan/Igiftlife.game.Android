@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/14szEnf.png" type="Texture" id=1]
+
+[node name="game over" type="Node2D"]
+
+[node name="14SzEnf" type="Sprite" parent="."]
+position = Vector2( 768.5, 362.5 )
+scale = Vector2( 2.82537, 2.08894 )
+texture = ExtResource( 1 )
